@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "linux",
+            "includePath": [
+                "."
+            ],
+            "defines": [
+                "LINUX"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++11"
+        }
+    ],
+    "version": 4
+}
+
