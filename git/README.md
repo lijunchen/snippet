@@ -11,3 +11,20 @@ git config --global credential.helper store
 
 git commit --amend --author="Author Name <email@address.com>" 
 ```
+
+.gitconfig
+```
+[user]
+    email = x
+    name = x
+[alias]
+    graph = log --graph --abbrev-commit --decorate --oneline --all
+[http]
+    proxy = socks5://x
+[https]
+    proxy = socks5://x
+[core]
+    editor = vim
+[credential]
+    helper = store
+```
